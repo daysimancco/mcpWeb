@@ -3,6 +3,7 @@ body {
     padding: 0px 0px 4px 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: linear-gradient(300deg, #070708 0%, #203A43 2.96%, #1a1e1f 100%);
+
 }
 
 nav {
@@ -26,9 +27,17 @@ nav a img {
     text-decoration: none;
     font-size: 20px;
 }
+<<<<<<< HEAD
+
+a img{
+    width: 180px;
+  
+=======
 #menu:hover{
     color: #FF3029 !important;
+>>>>>>> a5af3c001203ac6922b8bb949c3a786390df9eaf
 }
+
 
 header {
     width: 95%;
@@ -141,6 +150,8 @@ footer center figure img {
     padding: 10px;
     color: white;
 }
+<<<<<<< HEAD
+=======
 
 /**Detalle noticia */
 #detallenoticia {
@@ -222,3 +233,4 @@ form div label {
     font-size: 20px;
     text-align: justify;  
 }
+>>>>>>> a5af3c001203ac6922b8bb949c3a786390df9eaf
