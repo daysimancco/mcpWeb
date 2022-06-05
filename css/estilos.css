@@ -9,6 +9,7 @@ body {
     padding: 0px 0px 4px 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: linear-gradient(300deg, #070708 0%, #203A43 2.96%, #1a1e1f 100%);
+
 }
 
 nav {
@@ -24,9 +25,11 @@ nav {
     color: #1e1f45 !important;
 }
 
-a img {
+a img{
     width: 180px;
+  
 }
+
 
 header {
     width: 98.8%;
