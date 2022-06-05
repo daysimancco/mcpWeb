@@ -1,0 +1,75 @@
+
+
+p{
+font-style: italic;
+color: brown;
+}
+form { float: right;}
+header{
+    background-color: aqua;
+    padding: 2%;
+}
+header img{
+width: 100%;
+height: 400PX;
+}
+body{
+    background-color: orange;
+}
+nav{
+    background-color: rgb(198, 224, 80);
+}
+nav a{
+    text-align: center;
+    padding: 10px;
+}
+main{
+    display: flex;
+    background-color: chartreuse;
+    padding: 3%;
+    text-align: center;
+}
+
+aside h2{
+    text-align: center;
+}
+section{
+    display: flex;
+    width: 100%;
+    background-color: brown;
+}
+section figure{
+    width: 25%;
+}
+section figure img{
+    width: 100%;
+    height: 100%;
+}
+footer h3{
+    text-align: center;
+}
+footer{
+    background-color: aqua;
+}
+figure img{
+    padding-top: 4px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 4px;
+}
+ h1{
+    text-align: center;
+    color: blue; 
+}
+footer img{
+    padding-left: 250px;
+    padding-right: 80px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+br{
+    color: brown;
+}
+body{
+    background-color: aqua;
+}
