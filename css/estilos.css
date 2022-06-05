@@ -1,9 +1,3 @@
-* {
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
-}
-
 body {
     margin: 0px 0px 4px 0px;
     padding: 0px 0px 4px 0px;
@@ -14,52 +8,65 @@ body {
 
 nav {
     width: 100%;
-    height: 80px;
+    height: 60px;
     float: left;
     background: #bdc3c7;
     margin-left: 0px;
-
+    margin-bottom: 10px;
 }
-
+nav a img {
+    padding-top: 5px;
+    float: left;
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+}
 #menu {
-    color: #1e1f45 !important;
+    color: #010107 !important;
+    padding:20px;    
+    text-decoration: none;
+    font-size: 20px;
 }
+<<<<<<< HEAD
 
 a img{
     width: 180px;
   
+=======
+#menu:hover{
+    color: #FF3029 !important;
+>>>>>>> a5af3c001203ac6922b8bb949c3a786390df9eaf
 }
 
 
 header {
-    width: 98.8%;
+    width: 95%;
     height: 60px;
     float: left;
     background-color: #bdc3c7;
-    border-radius: 25px;
-    border-left: 120px solid #2c3e50;
-    padding: 6px 4px 6px 14px;
-    margin: 20px 7px 0px 7px;
-
+    border-radius: 20px;
+    border-left: 60px solid #2c3e50;
+    margin-bottom: 15px;
 }
-
-header h1 {
+header h1 strong {
+    padding: 10px;
     color: #1e1f45;
 }
-
-section {
-    margin: 5px 12px 5px 1px;
-    width: 68%;
-    background-color: bisque;
-    height: 250px;
+#contenidoN {
+    margin: 30px 12px 5px 1px;
+    width: 76%;
+    height: auto;
     float: right;
+    border-radius: 10px;
+    padding: 6px 4px 20px 14px;
+    background-color: #bdc3c7;
 }
 
-main {
-    margin: 5px 0px 5px 1px;
-    width: 100%;
 
-    height: 550px;
+main {
+    margin: 50px 0px 5px 1px;
+    width: 100%;
+    height: 500px;
     float: right;
 }
 
@@ -71,17 +78,17 @@ footer {
 
 }
 
-aside {
+#categoriasMPC {
     margin: 30px 0px 0px 7px;
     border-radius: 15px;
-    width: 22%;
-    height: 540px;
+    width: 20%;
+    height: 555px;
     background: linear-gradient(to right, #041326, #7793ae);
     float: left;
 
 }
 
-aside select {
+#categoriasMPC select {
     margin: 20px;
     width: 230px;
     height: 40px;
@@ -89,36 +96,38 @@ aside select {
     padding-left: 10px;
 }
 
-aside select:hover {
+#categoriasMPC select:hover {
     border: none;
 }
 
-#contenidoN {
-    float: right;
-    margin-top: 30px;
-    width: 75%;
+#contenidoN figure img {
     border-radius: 10px;
-    height: 540px;
-    padding: 6px 4px 6px 14px;
-    background-color: #bdc3c7;
-
-}
-
-section figure img {
-    border-radius: 10px;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-top: 3px;
     width: 250px;
-    height: 170px;
+    height: 150px;
     object-fit: cover;
 }
 
-section figure {
+#contenidoN figure figcaption {
+   padding: 10px;
+}
+
+#contenidoN figure figcaption a{
+    font-size: 15px;
+ }
+ 
+ #contenidoN figure figcaption a:hover{
+    color: pink;
+ }
+ #contenidoN figure {
     border: 2px solid #243B55;
     border-radius: 8px;
     width: 29%;
-    padding: 3px;
-    margin-top: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: #243B55;
     color: #bdc3c7;
     display: inline-block;
@@ -139,3 +148,87 @@ footer center figure img {
     padding: 10px;
     color: white;
 }
+<<<<<<< HEAD
+=======
+
+/**Detalle noticia */
+#detallenoticia {
+    width: 100%;
+    height: auto;
+    float: left;
+   text-align: justify;
+}
+#detallenoticia article div img {
+    padding-top: 10px;
+    width: 39%;
+    height: 20%;
+    float: right;
+    vertical-align: text-bottom;
+    
+}
+#detallenoticia article div img:hover{
+    padding-top: 50px;
+    height: 180px;
+    width: 20%;
+}
+#detallenoticia article aside figure img {
+    border-radius: 10px;
+    margin-left: 6px;
+    margin-top: 7px;
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+}
+#detallenoticia article aside figure img:hover { 
+    height: 140px;
+}
+#detallenoticia article aside figure figcaption{
+    margin-left: 7px;
+    color: #010107;
+}
+
+#detallenoticia article{
+    height: auto;
+    margin:20px;
+    padding: 4px 20px 4px 20px;
+    border: 4px solid #bdc3c7;
+    color: #bdc3c7;
+}
+#tarjetas {
+    margin: 30px 0px 0px 20px;
+    border-radius: 10px;
+    width: 18%;
+    height: 170px;
+    background-color: #bdc3c7;
+    float: left;
+
+}
+/*Pagina eventos carrusel*/
+
+#carrusel1{
+   
+    width: 100%;
+}
+
+#carrusel1 div img{
+    border-radius: 20px;
+    padding-left: 40px;
+    margin-right: 29px;
+    padding-bottom: 20px;
+    width: 38%;
+    float:left;
+    height: 610px;
+    object-fit: cover;
+}
+#carrusel2{
+    margin-right: 34px;
+    color: #bdc3c7;
+    font-size: 20px;
+    text-align: justify;
+}
+form div label {
+    color: aliceblue;
+    font-size: 20px;
+    text-align: justify;  
+}
+>>>>>>> a5af3c001203ac6922b8bb949c3a786390df9eaf
