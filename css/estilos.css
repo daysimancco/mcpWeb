@@ -97,7 +97,10 @@ footer {
 #categoriasMPC select:hover {
     border: none;
 }
+div.col-4 label.mb2{
+    color: black;
 
+}
 #contenidoN figure {
     width: 25%;
     height: auto;
@@ -254,6 +257,7 @@ footer center figure img {
     margin: 0px;
 }
 /*Pagina eventos carrusel*/
+}}
 
 #carrusel1 div{
     float: left;
