@@ -15,6 +15,27 @@ nav {
     margin-left: 0px;
     margin-bottom: 10px;
 }
+
+#menu {
+    color: #bdc3c7;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#menu:hover {
+    color: #ff3029;
+}
+
+#inicio {
+    color: #bdc3c7;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#inicio:hover {
+    color: #ff3029;
+>>>>>>> 8af3ec85f9a20156ca3fd52c807e1a823baaa15c
+}
 nav a img {
     padding-top: 5px;
     float: left;
