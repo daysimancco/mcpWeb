@@ -20,6 +20,7 @@ nav a img {
     text-decoration: none;
     font-size: 20px;
 }
+
 #menu:hover {
     color: #ff3029;
 }
@@ -30,6 +31,7 @@ nav a img {
     text-decoration: none;
     font-size: 20px;
 }
+
 #inicio:hover {
     color: #ff3029;
 }
@@ -97,10 +99,12 @@ footer {
 #categoriasMPC select:hover {
     border: none;
 }
-div.col-4 label.mb2{
+
+div.col-4 label.mb2 {
     color: black;
 
 }
+
 #contenidoN figure {
     width: 25%;
     height: auto;
@@ -117,15 +121,13 @@ div.col-4 label.mb2{
 }
 
 #contenidoN figure figcaption {
-<<<<<<< HEAD
     padding: 10px;
-=======
-   padding-left: 13px;
- 
+    padding-left: 13px;
+
 }
-#contenidoN figure figcaption h6{
+
+#contenidoN figure figcaption h6 {
     margin: 0px;
->>>>>>> 6b2f88cbf389724350231f9ae911ac3136f54cc8
 }
 
 #contenidoN figure figcaption a {
@@ -213,14 +215,13 @@ footer center figure img {
     border: 4px solid #bdc3c7;
     color: #bdc3c7;
 }
-<<<<<<< HEAD
 
 #tarjetas {
     margin: 30px 0px 0px 20px;
-=======
-#tarjetas{
+}
+
+#tarjetas {
     margin: 30px 0px 0px 17px;
->>>>>>> 6b2f88cbf389724350231f9ae911ac3136f54cc8
     border-radius: 10px;
     width: 18%;
     height: auto;
@@ -229,7 +230,6 @@ footer center figure img {
     margin-bottom: 54px;
 
 }
-<<<<<<< HEAD
 
 /*Pagina eventos carrusel*/
 
@@ -251,37 +251,38 @@ footer center figure img {
 
 #carrusel2 {
     margin-right: 34px;
-=======
-#tarjetas figure  {
+}
+
+#tarjetas figure {
     padding-top: 7px;
     margin: 0px;
 }
-/*Pagina eventos carrusel*/
-}}
 
-#carrusel1 div{
+/*Pagina eventos carrusel*/
+#carrusel1 div {
     float: left;
     padding-bottom: 10px;
 }
 
-#carrusel1 div img{
+#carrusel1 div img {
     border-radius: 25px;
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
-    float:left;
+    float: left;
     width: 100%;
     height: 540px;
     object-fit: cover;
 }
+
 #contenidoEvento {
     padding-right: 20px;
     padding-left: 10px;
 }
-#contenidoEvento div{
+
+#contenidoEvento div {
     width: 65%;
     padding-top: 2px;
->>>>>>> 6b2f88cbf389724350231f9ae911ac3136f54cc8
     color: #bdc3c7;
     font-size: 20px;
     text-align: justify;
@@ -295,13 +296,12 @@ form div label {
 }
 
 p.parrafo {
-	text-align: justify;
+    text-align: justify;
 }
 
 h2.subtitulo {
-	margin: 10px 0px;
-	padding: 10px;
-	background-color: skyblue;
-	color: white;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: skyblue;
+    color: white;
 }
-

@@ -1,8 +1,49 @@
+<<<<<<< HEAD
+*{
+    margin: 0px;
+    border: 0px;
+ 
+}
+
 body {
     margin: 0px 0px 4px 0px;
     padding: 0px 0px 4px 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- background-color: aqua;
+    background: linear-gradient(300deg, #070708 0%, #203A43 2.96%, #1a1e1f 100%);
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    float: left;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+nav a img {
+    padding-top: 5px;
+    float: left;
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+=======
+
+#contenedor{
+    margin: 18px 11px 18px 15px;
+    width: 98%;
+    border-radius: 10px;
+    padding: 3px 2px 1px 3px;
+background-color: grey;
+    
+}
+nav {
+    width: 100%;
+    height: 60px;
+    float: left;
+    background: #bdc3c7;
+    margin-left: 0px;
+    margin-bottom: 10px;
+>>>>>>> 4264348b21e71011c1e116c21a2a615ff17a6a42
 }
 
 #menu {
@@ -11,10 +52,6 @@ body {
     text-decoration: none;
     font-size: 20px;
 }
-#menu:hover {
-    color: #ff3029;
-}
-
 #inicio {
     color: #bdc3c7;
     padding: 20px;
@@ -23,34 +60,22 @@ body {
 }
 #inicio:hover {
     color: #ff3029;
+>>>>>>> 8af3ec85f9a20156ca3fd52c807e1a823baaa15c
 }
-nav a img {
-    padding-top: 5px;
-    float: left;
-    width: 100px;
-    height: 50px;
-    object-fit: cover;
-}
-#menu {
-    color: #010107 !important;
-    padding:20px;    
-    text-decoration: none;
-    font-size: 20px;
-}
-*{
-    margin: 0px;
-    border: 0px;
- 
-}
+
 
 
 p{
     font-style: italic;
     color: brown;
     }
-    form { float: right;}
+    
     header{
-        background-color: aqua;
+<<<<<<< HEAD
+      
+=======
+        background-color: grey;
+>>>>>>> 4264348b21e71011c1e116c21a2a615ff17a6a42
         padding: 2%;
     }
     header img{
@@ -60,9 +85,12 @@ p{
    
     main{
         display: flex;
-        background-color: chartreuse;
-        padding: 3%;
+        background-color:rgb(218, 156, 42);
         text-align: center;
+        border: 12px;
+        margin: 10px 10px 10px 10px;
+        color: grey;
+        border-radius: 2%;
     }
     
     aside h2{
@@ -70,21 +98,36 @@ p{
     }
     section{
         display: flex;
-        width: 100%;
-        background-color: brown;
+        width: 98.5%;
+        background-color:rgb(218, 156, 42);
+        margin: 0px 10px 10px 10px;
+        border-radius: 2%;
     }
     section figure{
         width: 25%;
     }
     section figure img{
         width: 100%;
-        height: 100%;
+        height: 350px;
+      
     }
-    footer h3{
-        text-align: center;
+    footer {
+        background: #bdc3c7;
+        width: 100%;
+        height: 100px;
+        float: left;
+        padding-bottom: 7px;
+    
     }
+<<<<<<< HEAD
+    footer center figure img {
+        margin-top: 10px;
+        width: 50px;
+        
+=======
     footer{
-        background-color: aqua;
+        background-color: grey;
+>>>>>>> 4264348b21e71011c1e116c21a2a615ff17a6a42
     }
     figure img{
         padding-top: 4px;
@@ -94,22 +137,33 @@ p{
     }
      h1{
         text-align: center;
-        color: blue; 
+        color: black; 
+        background-color: grey;
     }
+<<<<<<< HEAD
+ 
+    br{
+        color: brown;
+=======
     footer img{
         padding-left: 250px;
         padding-right: 80px;
         padding-top: 0px;
         padding-bottom: 0px;
+
     }
-    br{
-        color: brown;
+    h2{
+        background-color: grey;
+        color: #010107;
+>>>>>>> 4264348b21e71011c1e116c21a2a615ff17a6a42
     }
-    body{
-        background-color: aqua;
-    }
-    *{
-        margin: 0px;
-        border: 0px;
-        padding: 0px;
-    }
+
+  section figure figcaption{
+      text-align: center;
+  }
+body{
+    background-color: aqua;
+}
+figure figcaption a{
+    color: #010107;
+}

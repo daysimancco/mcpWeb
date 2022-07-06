@@ -39,13 +39,13 @@ section figure img:hover{
 }
 h3{
     text-align: center;
-    color: blue;
+    color:black;
 }
 footer{
     margin: 20px;
     border-radius: 20px;
     color: antiquewhite;
-   background-color: rgb(25, 218, 89);
+  background-color: grey;
 }
 main{
     display: flex;
@@ -57,7 +57,7 @@ main section figure img{
 }
 h1{
     text-align: center;
-    color: blue;
+    color: black;
 }
 header img.growth:hover{
     width: 1713px;
