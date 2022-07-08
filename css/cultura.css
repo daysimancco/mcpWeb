@@ -12,6 +12,7 @@ nav {
     background: #bdc3c7;
     margin-left: 0px;
     margin-bottom: 10px;
+    border: 5px solid #bdc3c7;
 }
 nav a img {
     padding-top: 5px;
@@ -25,6 +26,7 @@ nav a img {
     padding:20px;    
     text-decoration: none;
     font-size: 20px;
+  
 }
 
 *{
@@ -33,12 +35,15 @@ nav a img {
  
 }
 body{
-    background-color: rgb(218, 156, 42);
+    background-color: grey;
+   
+
 }
 #contenedor{
     width: 95%;
     margin: 30px auto;
     background-color: grey;
+    border: 5px solid #bdc3c7;
 }
 
 header h1{
@@ -54,11 +59,15 @@ height: 450px;
 main{
     display: flex;
 }
+
 aside{
     width: 25%;
     padding: 20px;
-    background-color: rgb(228, 142, 31);
+    background-color: grey;
+    border-radius: 10px;
+    border: 5px solid #bdc3c7;
 }
+
 aside h3{
     padding: 20px 0px;
 }
@@ -74,6 +83,7 @@ aside audio{
 aside video{
     width: 100%;
     padding: 20px 0px;
+    border: 5px solid #bdc3c7;
 }
 section{
     width: 50%;
@@ -100,6 +110,7 @@ footer{
     padding: 10px;
     text-align: center;
     background-color:grey;
+    border: 5px solid #bdc3c7;
 }
 footer h3{
     margin-bottom: 10px;

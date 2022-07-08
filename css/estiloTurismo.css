@@ -64,6 +64,7 @@ p{
     header{
         background-color: grey;
         padding: 2%;
+        border: 5px solid #bdc3c7;
     }
     header img{
     width: 100%;
@@ -72,12 +73,13 @@ p{
    
     main{
         display: flex;
-        background-color:rgb(218, 156, 42);
+        background-color:#bdc3c7;
         text-align: center;
         border: 12px;
         margin: 10px 10px 10px 10px;
-        color: grey;
+        color: #bdc3c7;
         border-radius: 2%;
+        border: 5px solid #04121b;
     }
     
     aside h2{
@@ -86,9 +88,10 @@ p{
     section{
         display: flex;
         width: 98.5%;
-        background-color:rgb(218, 156, 42);
+        background-color:#bdc3c7;
         margin: 0px 10px 10px 10px;
         border-radius: 2%;
+        border: 5px solid #04121b;
     }
     section figure{
         width: 25%;
@@ -135,4 +138,11 @@ body{
 }
 figure figcaption a{
     color: #010107;
+}
+main figure img{
+    width: 100%;
+    padding-top: 4px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 4px; 
 }
